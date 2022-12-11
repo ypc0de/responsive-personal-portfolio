@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Responsive Portfolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="header">
+      <nav class="nav grid container">
+        <div>
+          <a href="#" class="nav-logo">John Doe</a>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <div class="nav-shape"></div>
+          <div class="nav-close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <div class="nav-data">
+            <div class="nav-mask">
+              <img src="./assets/media/profile.jpg" alt="" class="nav-img" />
+            </div>
+
+            <h3 class="nav-name">John Doe</h3>
+            <span class="nav-greeting">Product Design</span>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">
+                <i class="bx bx-home"></i> Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">
+                <i class="bx bx-user"></i> About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">
+                <i class="bx bx-bookmark"></i> Services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">
+                <i class="bx bx-briefcase-alt-2"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link"
+                ><i class="bx bx-message-square-detail"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home" id="home">
+        <div class="home-container grid">
+          <div class="home-data">
+            <img
+              src="./assets/media/img-1.png"
+              class="home-img home-img-1"
+              alt=""
+            />
+            <img
+              src="./assets/media/img-2.png"
+              class="home-img home-img-2"
+              alt=""
+            />
+            <img
+              src="./assets/media/img-3.png"
+              class="home-img home-img-3"
+              alt=""
+            />
+
+            <h1 class="home-title">
+              Create <br />
+              Quality Design <br />
+              That Make Live Easier
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about-container grid container">
+          <img src="./assets/media/about.jpg" alt="" class="about-img" />
+          <div class="about-data">
+            <h2 class="about-title">Help You !</h2>
+            <p class="about-description">
+              finding solution and solve your progblem, I use process design to
+              create digital products. Besides that also help your business
+              growing.
+            </p>
+            <div class="about-information">
+              <span>
+                <b>285+</b> <br />
+                Project Completed</span
+              >
+              <span>
+                <b>190+</b> <br />
+                Happy Client</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <h2 class="section-title">What I Do</h2>
+
+        <div class="services-container grid container">
+          <div class="services-content">
+            <i class="bx bx-code services-icon service-icon-1"></i>
+            <h3 class="services-title">Website Design</h3>
+            <p class="services-description">
+              HTML/CSS, JavaScript Animation WordPress, Responsive Website
+            </p>
+          </div>
+          <div class="services-content">
+            <i class="bx bx-mobile services-icon service-icon-2"></i>
+            <h3 class="services-title">Mobile App Design</h3>
+            <p class="services-description">
+              User Flow,Wireframing Prototyping, Mobile App Design,
+            </p>
+          </div>
+          <div class="services-content">
+            <i class="bx bx-bulb services-icon service-icon-3"></i>
+            <h3 class="services-title">Brand Identity</h3>
+            <p class="services-description">
+              Visual Identity, Stationary Kit,Marketing Materials
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">My Latest Works</h2>
+
+        <div class="portfolio-container grid container">
+          <div class="portfolio-content">
+            <img src="./assets/media/portfolio1.jpg" alt="" />
+            <div class="portfolio-button">
+              <a href="#">View Project</a>
+            </div>
+            <div class="portfolio-data">
+              <h6 class="portfolio-title">Landing page</h6>
+              <span class="portfolio-subtitle">Illustration, Web Design</span>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <img src="./assets/media/portfolio2.jpg" alt="" />
+            <div class="portfolio-button">
+              <a href="#">View Project</a>
+            </div>
+            <div class="portfolio-data">
+              <h6 class="portfolio-title">Redesigning Gocar</h6>
+              <span class="portfolio-subtitle">Illustration, App Design</span>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <img src="./assets/media/portfolio3.jpg" alt="" />
+            <div class="portfolio-button">
+              <a href="#">View Project</a>
+            </div>
+            <div class="portfolio-data">
+              <h6 class="portfolio-title">RobinApp</h6>
+              <span class="portfolio-subtitle">Web Design, App Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Interested in working with me?</h2>
+
+        <div class="contact-container grid">
+          <form action="" class="contact-form">
+            <input
+              type="text"
+              placeholder="Enter your name"
+              class="contact-input"
+            />
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              class="contact-input"
+            />
+            <input
+              type="text"
+              placeholder="Enter your subject"
+              class="contact-input"
+            />
+
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Enter your message"
+              class="contact-input"
+            ></textarea>
+            <button class="button contact-button">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer section">
+        <div class="footer-container grid container">
+          <div class="footer-social">
+            <a href="#" class="footer-link"><i class="bx bxl-dribbble"></i></a>
+            <a href="#" class="footer-link"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="footer-link"><i class="bx bxl-behance"></i></a>
+          </div>
+
+          <p class="footer-copy">All right reserved by ypcode - 2022</p>
+        </div>
+      </footer>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
